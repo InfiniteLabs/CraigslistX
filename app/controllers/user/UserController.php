@@ -38,8 +38,15 @@ class UserController extends BaseController {
      */
     public function postIndex()
     {
-        $this->user->username = Input::get( 'username' );
-        $this->user->email = Input::get( 'email' );
+        $this->user->username = Input::get('username');
+        $this->user->email = Input::get('email');
+        $this->user->first_name = Input::get('first_name');
+        $this->user->last_name = Input::get('last_name');
+        $this->user->city = Input::get('city');
+        $this->user->state = Input::get('state');
+        $this->user->street = Input::get('street');
+        //$this->user->location_GPS = Input::get('location_GPS');
+        //$this->user->escrow_token = Input::get('escrow_token');
 
         $password = Input::get( 'password' );
         $passwordConfirmation = Input::get( 'password_confirmation' );
@@ -97,6 +104,11 @@ class UserController extends BaseController {
             $oldUser = clone $user;
             $user->username = Input::get( 'username' );
             $user->email = Input::get( 'email' );
+            $user->first_name = Input::get('first_name');
+            $user->last_name = Input::get('last_name');
+            $user->city = Input::get('city');
+            $user->state = Input::get('state');
+            $user->street = Input::get('street');
 
             $password = Input::get( 'password' );
             $passwordConfirmation = Input::get( 'password_confirmation' );

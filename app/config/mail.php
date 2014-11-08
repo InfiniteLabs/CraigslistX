@@ -15,7 +15,7 @@ return array(
 	|
 	*/
 
-	'driver' => 'smtp',
+	'driver' => 'mandrill',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -28,7 +28,7 @@ return array(
 	|
 	*/
 
-	'host' => 'smtp.postmarkapp.com',
+	'host' => 'smtp.mandrillapp.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -41,7 +41,7 @@ return array(
 	|
 	*/
 
-	'port' => 2525,
+	'port' => 587,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -54,7 +54,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => null, 'name' => null),
+	'from' => array('address' => 'infinitedevelopment@me.com', 'name' => 'admin'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -80,7 +80,7 @@ return array(
 	|
 	*/
 
-	'username' => null,
+	'username' => 'infinitedevelopment@me.com',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,6 +93,6 @@ return array(
 	|
 	*/
 
-	'password' => null,
+	'password' => 'zayj#20010080',
 
 );

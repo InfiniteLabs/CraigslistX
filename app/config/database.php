@@ -54,13 +54,15 @@ return array(
 
         'mysql' => array(
             'driver'    => 'mysql',
-            'host'      => 'localhost',
+            'host'      => 'localhost',//'127.0.0.1:33060',
+            //'host'    => '127.0.0.1:33060',
             'database'  => 'craigslistX',
             'username'  => 'homestead',
-            'password'  => 'secret',
+            'password'  => '',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
+            'port'      => '33060'
         ),
 
 		'pgsql' => array(

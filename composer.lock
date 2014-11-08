@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "14b3132b31e329f63d4dd1a295dc72b3",
+    "hash": "b42a2a6e3f89fd7b5bf418951e24685a",
     "packages": [
         {
             "name": "bllim/datatables",
@@ -60,6 +60,43 @@
                 "laravel4"
             ],
             "time": "2014-09-05 07:55:04"
+        },
+        {
+            "name": "bninja/restful",
+            "version": "0.1.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bninja/restful.git",
+                "reference": "8e7b7b6733f8503892f180e6c16969e5f808de10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bninja/restful/zipball/8e7b7b6733f8503892f180e6c16969e5f808de10",
+                "reference": "8e7b7b6733f8503892f180e6c16969e5f808de10",
+                "shasum": ""
+            },
+            "require": {
+                "nategood/httpful": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "RESTful": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Library for writing RESTful PHP clients.",
+            "homepage": "http://github.com/bninja/restful",
+            "keywords": [
+                "api",
+                "client",
+                "http",
+                "rest"
+            ],
+            "time": "2013-11-06 22:18:01"
         },
         {
             "name": "classpreloader/classpreloader",
@@ -534,6 +571,56 @@
             "time": "2014-09-30 13:30:58"
         },
         {
+            "name": "nategood/httpful",
+            "version": "0.2.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nategood/httpful.git",
+                "reference": "7beda470b57250f60ce1b0179c5551620c3e43e6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nategood/httpful/zipball/7beda470b57250f60ce1b0179c5551620c3e43e6",
+                "reference": "7beda470b57250f60ce1b0179c5551620c3e43e6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Httpful": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nate Good",
+                    "email": "me@nategood.com",
+                    "homepage": "http://nategood.com"
+                }
+            ],
+            "description": "A Readable, Chainable, REST friendly, PHP HTTP Client",
+            "homepage": "http://github.com/nategood/httpful",
+            "keywords": [
+                "api",
+                "curl",
+                "http",
+                "requests",
+                "rest",
+                "restful"
+            ],
+            "time": "2014-08-24 21:57:36"
+        },
+        {
             "name": "nesbot/carbon",
             "version": "1.13.0",
             "source": {
@@ -626,16 +713,16 @@
         },
         {
             "name": "patchwork/utf8",
-            "version": "v1.1.25",
+            "version": "v1.1.26",
             "source": {
                 "type": "git",
-                "url": "https://github.com/nicolas-grekas/Patchwork-UTF8.git",
-                "reference": "2d43bd047b120279511d45e76e61c5a9812d9a83"
+                "url": "https://github.com/tchwork/utf8.git",
+                "reference": "6b8e46603b49ee87ad6bceb314da94cc04ffcdce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nicolas-grekas/Patchwork-UTF8/zipball/2d43bd047b120279511d45e76e61c5a9812d9a83",
-                "reference": "2d43bd047b120279511d45e76e61c5a9812d9a83",
+                "url": "https://api.github.com/repos/tchwork/utf8/zipball/6b8e46603b49ee87ad6bceb314da94cc04ffcdce",
+                "reference": "6b8e46603b49ee87ad6bceb314da94cc04ffcdce",
                 "shasum": ""
             },
             "require": {
@@ -666,19 +753,19 @@
             "authors": [
                 {
                     "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com",
-                    "role": "Developer"
+                    "email": "p@tchwork.com"
                 }
             ],
-            "description": "Extensive, portable and performant handling of UTF-8 and grapheme clusters for PHP",
-            "homepage": "https://github.com/nicolas-grekas/Patchwork-UTF8",
+            "description": "Portable and performant UTF-8, Unicode and Grapheme Clusters for PHP",
+            "homepage": "https://github.com/tchwork/utf8",
             "keywords": [
+                "grapheme",
                 "i18n",
                 "unicode",
                 "utf-8",
                 "utf8"
             ],
-            "time": "2014-08-05 08:00:32"
+            "time": "2014-11-08 10:13:25"
         },
         {
             "name": "phpseclib/phpseclib",

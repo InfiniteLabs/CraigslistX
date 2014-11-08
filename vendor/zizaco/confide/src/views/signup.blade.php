@@ -10,6 +10,26 @@
             <input class="form-control" placeholder="{{{ Lang::get('confide::confide.e_mail') }}}" type="text" name="email" id="email" value="{{{ Input::old('email') }}}">
         </div>
         <div class="form-group">
+            <label for="first_name">{{{ Lang::get('confide::confide.first_name') }}}</label>
+            <input class="form-control" placeholder="{{{ Lang::get('confide::confide.first_name') }}}" type="text" name="first_name" id="first_name" value="{{{ Input::old('first_name') }}}">
+        </div>
+        <div class="form-group">
+            <label for="last_name">{{{ Lang::get('confide::confide.last_name') }}}</label>
+            <input class="form-control" placeholder="{{{ Lang::get('confide::confide.last_name') }}}" type="text" name="last_name" id="last_name" value="{{{ Input::old('last_name') }}}">
+        </div>
+        <div class="form-group">
+            <label for="city">{{{ Lang::get('confide::confide.city') }}}</label>
+            <input class="form-control" placeholder="{{{ Lang::get('confide::confide.city') }}}" type="text" name="city" id="city" value="{{{ Input::old('city') }}}">
+        </div>
+        <div class="form-group">
+            <label for="state">{{{ Lang::get('confide::confide.state') }}}</label>
+            <input class="form-control" placeholder="{{{ Lang::get('confide::confide.state') }}}" type="text" name="state" id="state" value="{{{ Input::old('state') }}}">
+        </div>
+        <div class="form-group">
+            <label for="street">{{{ Lang::get('confide::confide.street') }}}</label>
+            <input class="form-control" placeholder="{{{ Lang::get('confide::confide.street') }}}" type="text" name="street" id="street" value="{{{ Input::old('street') }}}">
+        </div>
+        <div class="form-group">
             <label for="password">{{{ Lang::get('confide::confide.password') }}}</label>
             <input class="form-control" placeholder="{{{ Lang::get('confide::confide.password') }}}" type="password" name="password" id="password">
         </div>
